@@ -1,6 +1,7 @@
 DSL for creating video tutorials
 
 ```ruby
+require 'rubygems'
 require 'autotutor'
 
 task "Sign In" do
