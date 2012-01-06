@@ -1,6 +1,8 @@
 DSL for creating video tutorials
 
 ```ruby
+require 'autotutor'
+
 task "Sign In" do
   visit "http://www.classstart.org/"
   click_link "Sign in"
