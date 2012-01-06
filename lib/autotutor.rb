@@ -1,7 +1,8 @@
-# require "autotutor/version"
 require "capybara"
+require "autotutor/base"
 
-def task(*args, &block)
-  print 'abc'
-  yield
+module Autotutor
+  class Engine < Rails::Engine
+  end if defined?(Rails) && Rails::VERSION::MAJOR == 3
 end
+

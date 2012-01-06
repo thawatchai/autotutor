@@ -4,12 +4,13 @@ require "autotutor/version"
 
 Gem::Specification.new do |s|
   s.name        = "autotutor"
-  s.version     = Autotutor::VERSION
+  s.version     = Autotutor::VERSION.dup
+  s.platform    = Gem::Platform::RUBY
   s.authors     = ["Thawatchai Piyawat"]
   s.email       = ["thawatchai@usablelabs.org"]
-  s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.homepage    = "http://github.com/thawatchai/autotutor"
+  s.summary     = "Autotutor allows you to script a text tutorial for web application"
+  s.description = "Autotutor allows you to script a text tutorial for web application"
 
   s.rubyforge_project = "autotutor"
 
